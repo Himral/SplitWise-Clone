@@ -1,0 +1,420 @@
+2024-06-09T16:48:50.415Z | INFO   | Server started in PORT | 3001
+2024-06-09T16:48:50.417Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:02:45.157Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:02:45.158Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:04:30.612Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:04:30.614Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:05:43.203Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:05:43.205Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:06:51.995Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:06:51.997Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:08:11.960Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:08:11.962Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:09:54.116Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:09:54.117Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:10:21.933Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:10:21.934Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:11:33.630Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:11:33.632Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:13:26.218Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:13:26.220Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:14:06.781Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:14:07.323Z | INFO   | DB Connection Established
+2024-06-09T17:16:08.613Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-09T17:16:08.660Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password ! Error: Invalid email Id or Password !
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:66:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-09T17:16:38.402Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-09T17:16:38.631Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-09T17:16:38.783Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:16:43.756Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-09T17:16:43.803Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2024-06-09T17:16:52.573Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-09T17:16:52.793Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-09T17:16:52.945Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:18:28.801Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-09T17:18:28.968Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:74:23)
+2024-06-09T17:18:34.685Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-09T17:18:34.860Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:19:52.667Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-09T17:19:52.899Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-09T17:19:53.049Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:20:13.891Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-09T17:20:14.066Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:21:36.694Z | INFO   | Server started in PORT | 3001
+2024-06-09T17:21:40.233Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-09T17:21:43.501Z | INFO   | DB Connection Established
+2024-06-09T17:21:44.390Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-09T17:21:44.428Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:21:44.435Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:21:50.380Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:21:52.020Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:21:55.390Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:21:56.432Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-09T17:21:56.493Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:21:56.501Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:22:02.718Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:22:04.790Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:22:16.761Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:22:17.465Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-09T17:22:17.502Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:22:17.537Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:28:48.881Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:28:49.935Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:28:52.446Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:28:54.071Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-09T17:28:54.109Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:28:54.114Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:28:56.774Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:28:57.569Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:29:00.307Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:29:01.487Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-09T17:29:01.533Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:29:01.568Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:29:29.552Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:29:30.379Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:29:32.273Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:35:47.043Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-09T17:35:47.090Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:35:47.127Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:37:23.286Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-09T17:37:24.070Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:37:35.140Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:44:27.616Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-09T17:44:29.614Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-09T17:44:29.661Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:44:29.696Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T11:10:17.703Z | INFO   | Server started in PORT | 3001
+2024-06-11T11:10:26.419Z | INFO   | DB Connection Established
+2024-06-11T11:13:43.603Z | INFO   | API HIT : [GET] /main.08937f907ea6787efd0d.hot-update.json
+2024-06-11T11:13:43.604Z | ERROR  | [Invalid Route] /main.08937f907ea6787efd0d.hot-update.json
+2024-06-11T11:13:43.622Z | INFO   | API HIT : [GET] /
+2024-06-11T11:13:43.623Z | ERROR  | [Invalid Route] /
+2024-06-11T11:13:43.659Z | INFO   | API HIT : [GET] /favicon.ico
+2024-06-11T11:13:43.659Z | ERROR  | [Invalid Route] /favicon.ico
+2024-06-11T11:14:00.763Z | INFO   | API HIT : [GET] /
+2024-06-11T11:14:00.764Z | ERROR  | [Invalid Route] /
+2024-06-11T11:14:06.931Z | INFO   | API HIT : [GET] /
+2024-06-11T11:14:06.932Z | ERROR  | [Invalid Route] /
+2024-06-11T11:14:07.892Z | INFO   | API HIT : [GET] /
+2024-06-11T11:14:07.892Z | ERROR  | [Invalid Route] /
+2024-06-11T11:14:08.041Z | INFO   | API HIT : [GET] /
+2024-06-11T11:14:08.042Z | ERROR  | [Invalid Route] /
+2024-06-11T11:14:31.724Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T11:14:31.776Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T11:14:31.784Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T11:17:07.792Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T11:17:07.832Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T11:17:07.840Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T11:19:15.563Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T11:19:16.844Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T11:19:19.071Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T11:20:48.943Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T11:20:49.012Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T11:20:49.049Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T11:22:35.577Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T11:22:36.417Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T11:22:54.461Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T11:22:56.418Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T11:22:56.462Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T11:22:56.499Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:13:20.389Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:13:20.427Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:13:20.433Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:13:31.910Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:13:32.686Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:13:32.721Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:13:32.727Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:13:59.417Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:14:01.303Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T12:14:08.167Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:14:08.209Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:14:08.218Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:14:10.668Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-06-11T12:14:30.142Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:14:30.177Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:14:30.184Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:14:38.215Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-06-11T12:14:40.042Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:14:40.079Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:14:40.123Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:15:13.940Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:15:14.941Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T12:15:34.266Z | INFO   | API HIT : [POST] /api/group/v1/add
+2024-06-11T12:15:35.214Z | INFO   | API HIT : [POST] /api/group/v1/view
+2024-06-11T12:15:35.255Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2024-06-11T12:15:35.289Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-06-11T12:15:38.690Z | INFO   | API HIT : [POST] /api/group/v1/view
+2024-06-11T12:15:58.007Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2024-06-11T12:15:58.447Z | INFO   | API HIT : [POST] /api/group/v1/view
+2024-06-11T12:15:58.501Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2024-06-11T12:15:58.562Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2024-06-11T12:15:58.567Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2024-06-11T12:15:58.627Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2024-06-11T12:16:08.217Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2024-06-11T12:16:08.290Z | INFO   | API HIT : [POST] /api/group/v1/view
+2024-06-11T12:16:12.218Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2024-06-11T12:16:12.220Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2024-06-11T12:16:12.284Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2024-06-11T12:16:13.365Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:16:13.408Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:13.508Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-11T12:16:13.510Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:13.511Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-11T12:16:13.514Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-11T12:16:13.547Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-11T12:16:18.596Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:20.319Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:16:20.363Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:20.459Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-11T12:16:20.460Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:20.461Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-11T12:16:20.462Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-11T12:16:20.506Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-11T12:16:22.375Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-06-11T12:16:32.368Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:16:32.424Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:32.522Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-11T12:16:32.523Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:32.524Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-11T12:16:32.525Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-11T12:16:32.569Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-11T12:16:40.744Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-06-11T12:16:43.317Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:16:43.361Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:43.452Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-11T12:16:43.454Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:16:43.456Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-11T12:16:43.457Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-11T12:16:43.492Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-11T12:20:30.837Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:20:32.616Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T12:20:46.831Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T12:21:50.971Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T12:21:53.324Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T12:22:02.742Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:22:02.805Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:22:02.906Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-11T12:22:02.907Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:22:02.908Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-11T12:22:02.909Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-11T12:22:02.945Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-11T12:28:49.819Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:28:51.040Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-11T12:28:51.913Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:28:53.577Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-11T12:28:53.654Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:28:53.737Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-11T12:28:53.738Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-11T12:28:53.739Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-11T12:28:53.740Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-11T12:28:53.775Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-12T03:46:09.188Z | INFO   | Server started in PORT | 3001
+2024-06-12T03:46:16.828Z | INFO   | DB Connection Established
+2024-06-12T03:46:41.256Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-12T03:46:41.320Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-12T03:46:41.421Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-12T03:46:41.429Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-12T03:46:41.431Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-12T03:46:41.435Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-12T03:46:41.478Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-13T10:53:01.177Z | INFO   | Server started in PORT | 3001
+2024-06-13T10:53:04.050Z | INFO   | DB Connection Established
+2024-06-13T10:54:54.245Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-13T10:54:54.496Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-13T10:54:54.859Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-13T10:54:54.905Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-13T10:54:54.911Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-13T10:55:00.647Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-13T10:55:02.021Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-13T10:55:02.069Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-13T10:55:02.077Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-13T10:55:02.988Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-13T10:55:04.812Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-13T10:55:16.296Z | INFO   | API HIT : [POST] /api/group/v1/add
+2024-06-13T10:55:16.576Z | INFO   | API HIT : [POST] /api/group/v1/view
+2024-06-13T10:55:16.626Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2024-06-13T10:55:16.664Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-06-13T10:55:20.100Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2024-06-13T10:55:21.728Z | INFO   | API HIT : [POST] /api/group/v1/view
+2024-06-13T10:55:30.492Z | INFO   | API HIT : [POST] /api/expense/v1/add
+2024-06-13T10:55:30.899Z | INFO   | API HIT : [POST] /api/group/v1/view
+2024-06-13T10:55:30.944Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2024-06-13T10:55:31.009Z | INFO   | API HIT : [POST] /api/expense/v1/group/categoryExp
+2024-06-13T10:55:31.012Z | INFO   | API HIT : [POST] /api/expense/v1/group/monthlyExp
+2024-06-13T10:55:31.088Z | INFO   | API HIT : [POST] /api/expense/v1/group/dailyExp
+2024-06-13T10:55:39.414Z | INFO   | API HIT : [POST] /api/group/v1/settlement
+2024-06-24T16:37:39.250Z | INFO   | Server started in PORT | 3001
+2024-06-24T16:37:41.840Z | INFO   | DB Connection Established
+2024-06-24T16:38:16.741Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-24T16:38:16.804Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-24T16:38:16.921Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-24T16:38:16.924Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-24T16:38:16.925Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-24T16:38:16.927Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-24T16:38:16.968Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-24T16:38:27.275Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-24T16:38:28.157Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-24T16:38:29.073Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-06-24T17:37:33.554Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-24T17:37:33.834Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-24T17:37:35.001Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-24T17:37:35.043Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-24T17:37:35.050Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-24T17:37:48.889Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-24T17:37:49.175Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-24T17:37:49.221Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-24T17:37:49.226Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-24T17:38:01.644Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-24T17:38:01.820Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/shivamgarg/Desktop/SplitApp-main/components/user.js:74:23)
+2024-06-27T16:29:09.498Z | INFO   | Server started in PORT | 3001
+2024-06-27T16:29:13.918Z | INFO   | DB Connection Established
+2024-06-27T16:30:06.084Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-27T16:30:06.144Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2024-06-27T16:30:12.126Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-27T16:30:12.365Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-27T16:30:12.685Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-27T16:30:12.740Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-27T16:30:12.747Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-27T16:44:22.784Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-06-27T16:44:23.289Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-06-27T16:44:23.663Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-27T16:44:23.707Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-27T16:44:23.717Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-27T17:00:47.936Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-27T17:00:49.300Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-27T17:00:50.637Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-27T17:00:50.686Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-27T17:00:50.692Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-27T17:00:52.177Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-27T17:00:53.204Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-06-27T17:01:20.225Z | INFO   | API HIT : [POST] /api/group/v1/add
+2024-06-27T17:01:20.939Z | INFO   | API HIT : [POST] /api/group/v1/view
+2024-06-27T17:01:20.990Z | INFO   | API HIT : [POST] /api/expense/v1/group
+2024-06-27T17:01:21.032Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-06-27T17:01:52.802Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-06-27T17:01:52.855Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-27T17:01:52.861Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-27T17:01:52.968Z | INFO   | API HIT : [POST] /api/expense/v1/user/monthlyExp
+2024-06-27T17:01:52.974Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-06-27T17:01:52.984Z | INFO   | API HIT : [POST] /api/expense/v1/user/recent
+2024-06-27T17:01:52.986Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
+2024-06-27T17:01:53.019Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
+2024-06-27T17:01:53.282Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user

@@ -1,0 +1,174 @@
+2024-06-09T16:48:50.417Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:02:45.158Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:04:30.614Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:05:43.205Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:06:51.997Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:4:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:08:11.962Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:09:54.117Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:10:21.934Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:11:33.632Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:13:26.220Z | ERROR  | DB Connection Fail | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at Connection.openUri (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/connection.js:689:11)
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:377:10
+    at /Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:1220:10)
+    at Mongoose.connect (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/mongoose/lib/index.js:376:20)
+    at Object.<anonymous> (/Users/shivamgarg/Himral/Projects/SplitApp-main/model/schema.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1368:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+2024-06-09T17:16:08.660Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password ! Error: Invalid email Id or Password !
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:66:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-09T17:16:38.783Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:16:43.803Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2024-06-09T17:16:52.945Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:18:28.968Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:74:23)
+2024-06-09T17:18:34.860Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:19:53.049Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:20:14.066Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (/Users/shivamgarg/Himral/Projects/SplitApp-main/node_modules/jsonwebtoken/sign.js:107:20)
+    at exports.generateAccessToken (/Users/shivamgarg/Himral/Projects/SplitApp-main/helper/apiAuthentication.js:5:16)
+    at exports.userLogin (/Users/shivamgarg/Himral/Projects/SplitApp-main/components/user.js:78:41)
+2024-06-09T17:21:44.428Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:21:56.493Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:22:17.502Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:28:54.109Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:29:01.533Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:35:47.090Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-09T17:44:29.661Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T11:13:43.604Z | ERROR  | [Invalid Route] /main.08937f907ea6787efd0d.hot-update.json
+2024-06-11T11:13:43.623Z | ERROR  | [Invalid Route] /
+2024-06-11T11:13:43.659Z | ERROR  | [Invalid Route] /favicon.ico
+2024-06-11T11:14:00.764Z | ERROR  | [Invalid Route] /
+2024-06-11T11:14:06.932Z | ERROR  | [Invalid Route] /
+2024-06-11T11:14:07.892Z | ERROR  | [Invalid Route] /
+2024-06-11T11:14:08.042Z | ERROR  | [Invalid Route] /
+2024-06-11T11:14:31.776Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T11:17:07.832Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T11:20:49.012Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T11:22:56.462Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:13:20.427Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:13:32.721Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:14:08.209Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:14:30.177Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:14:40.079Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-11T12:15:35.289Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-06-13T10:54:54.905Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-13T10:55:02.069Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-13T10:55:16.664Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-06-24T17:37:35.043Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-24T17:37:49.221Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-24T17:38:01.820Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/shivamgarg/Desktop/SplitApp-main/components/user.js:74:23)
+2024-06-27T16:30:06.144Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2024-06-27T16:30:12.740Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-27T16:44:23.707Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-27T17:00:50.686Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-27T17:01:21.032Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2024-06-27T17:01:52.855Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-06-27T17:01:53.282Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
