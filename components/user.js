@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs')
 const validator = require('../helper/validation')
 const logger = require('../helper/logger')
 const apiAuth = require('../helper/apiAuthentication')
-
+const User = require('../model/schema')
 /*
 User Registeration function
 Accepts: firstName, lastName, emailId, password 
@@ -12,51 +12,73 @@ Validation: firstname, lastname not Null
             password - min 8, lowercase, uppercase, special character, numbers
 API: /users/v1/register
 */
+const zod = require("zod");
+
+//Function for registration API
+//API : /users/v1/register
+
+const signupBody = zod.object({
+    emailId : zod.string().email(),
+    firstName : zod.string(),
+    lastName : zod.string(),
+    password : zod.string().min(8)
+})
 exports.userReg = async (req, res) => {
     try {
-        //Checking email Id exist in DB
+        // Checking if email ID exists in DB
         const user = await model.User.findOne({
             emailId: req.body.emailId
-        })
-        //If email ID present in database thows error and retuen message
-        if (user) {
-            res.status(400).json({
-                status : "fail",
-                message : "Email Id already present please login!"
-            })
-        } else {
-            //Accepts the inputs and create user model form req.body
-            var newUser = new model.User(req.body)
-            //Performing validations
-            if (validator.emailValidation(newUser.emailId) &&
-                validator.passwordValidation(newUser.password) &&
-                validator.notNull(newUser.firstName)) {
-                //Bcrypt password encription
-                const salt = await bcrypt.genSalt(10);
-                newUser.password = await bcrypt.hash(newUser.password, salt)
+        });
 
-                //storing user details in DB
-                var id = await model.User.create(newUser)
-                res.status(200).json({
-                    status: "Success",
-                    message: "User Registeration Success",
-                    userId: id.id
-                })
-            }
+        // If email ID is present in database, throw an error and return a message
+        if (user) {
+            return res.status(400).json({
+                status: "fail",
+                message: "Email Id already present, please login!"
+            });
         }
+
+        // Accepts the inputs and create user model from req.body
+        const { success } = signupBody.safeParse(req.body);
+
+        if (!success) {
+            return res.status(411).json({
+                message: "Incorrect Inputs"
+            });
+        }
+
+        const salt = await bcrypt.genSalt(10);
+
+        const newUser = await model.User.create({
+            firstName: req.body.firstName,
+            lastName: req.body.lastName,
+            emailId: req.body.emailId,
+            password: await bcrypt.hash(req.body.password, salt)
+        });
+
+        const id = newUser._id;
+        res.status(200).json({
+            status: "Success",
+            message: "User Registration Success",
+            userId: id
+        });
+
     } catch (err) {
-        logger.error(`URL : ${req.originalUrl} | staus : ${err.status} | message: ${err.message}`)
+        console.error(`URL: ${req.originalUrl} | status: ${err.status} | message: ${err.message}`);
         res.status(err.status || 500).json({
             message: err.message
-        })
+        });
     }
-}
+};
 
+
+//------------------------------------------------------
 /*
 User login function
 Accepts: email Id & Pass
 Implement Google Sign-in in the future.
 */
+
 exports.userLogin = async (req, res) => {
     try {
         //Checking email Id exist in DB 

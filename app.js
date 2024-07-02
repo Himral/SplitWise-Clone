@@ -4,7 +4,7 @@ var logger = require('./helper/logger')
 var requestLogger = require('./helper/requestLogger')
 var apiAuth = require('./helper/apiAuthentication')
 var cors = require('cors')
-
+const zod = require('zod');
 const path = require('path');
 dotenv.config()
 

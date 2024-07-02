@@ -2,6 +2,7 @@ var mongoose = require('mongoose')
 var logger = require('../helper/logger')
 
 const url = `mongodb+srv://himralgarg:himral172003@cluster0.asqrmpf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+
 mongoose.connect(url, ).then(() => {
     logger.info(`DB Connection Established`)
     console.log("DB Connected")

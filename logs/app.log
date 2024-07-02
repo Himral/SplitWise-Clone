@@ -418,3 +418,24 @@
 2024-06-27T17:01:52.986Z | INFO   | API HIT : [POST] /api/expense/v1/user/categoryExp
 2024-06-27T17:01:53.019Z | INFO   | API HIT : [POST] /api/expense/v1/user/dailyExp
 2024-06-27T17:01:53.282Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2024-07-02T17:50:51.367Z | INFO   | Server started in PORT | 3001
+2024-07-02T17:50:53.616Z | INFO   | DB Connection Established
+2024-07-02T18:10:20.704Z | INFO   | API HIT : [POST] /api/user/v1/register
+2024-07-02T18:10:20.708Z | ERROR  | [Invalid Route] /api/user/v1/register
+2024-07-02T18:10:36.545Z | INFO   | API HIT : [POST] /api/v1/user/register
+2024-07-02T18:10:36.546Z | ERROR  | [Invalid Route] /api/v1/user/register
+2024-07-02T18:11:07.746Z | INFO   | API HIT : [POST] /users/v1/register
+2024-07-02T18:11:07.747Z | ERROR  | [Invalid Route] /users/v1/register
+2024-07-02T18:12:06.350Z | INFO   | API HIT : [POST] /users/v1/register
+2024-07-02T18:12:06.351Z | ERROR  | [Invalid Route] /users/v1/register
+2024-07-02T18:12:12.168Z | INFO   | Server started in PORT | 3001
+2024-07-02T18:12:16.085Z | INFO   | DB Connection Established
+2024-07-02T18:12:17.335Z | INFO   | API HIT : [POST] /users/v1/register
+2024-07-02T18:12:17.335Z | ERROR  | [Invalid Route] /users/v1/register
+2024-07-02T18:14:15.895Z | INFO   | Server started in PORT | 3001
+2024-07-02T18:14:16.945Z | INFO   | DB Connection Established
+2024-07-02T18:14:45.962Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-07-02T18:15:32.888Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-07-02T18:18:55.855Z | INFO   | Server started in PORT | 3001
+2024-07-02T18:18:57.428Z | INFO   | DB Connection Established
+2024-07-02T18:19:01.131Z | INFO   | API HIT : [POST] /api/users/v1/register
