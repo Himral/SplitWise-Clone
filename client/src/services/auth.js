@@ -7,7 +7,9 @@ export const login = async (formData, setShowAlert, setAlertMessage) => {
         localStorage.setItem("profile", JSON.stringify(data))
         window.location.href=configData.DASHBOARD_URL
         return data
-    }catch(err){
+    }
+    catch(err)
+    {
         setShowAlert(true)
         err.response.status === 400 || err.response.status === 401 
         ? setAlertMessage(err.response.data.message) : setAlertMessage("Oops! Something went worng")

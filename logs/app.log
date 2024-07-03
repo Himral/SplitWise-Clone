@@ -488,3 +488,35 @@
 2024-07-03T02:54:55.736Z | INFO   | API HIT : [POST] /api/expense/v1/user
 2024-07-03T02:54:55.786Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
 2024-07-03T02:54:55.798Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-07-03T03:33:46.851Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-07-03T03:33:48.118Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-07-03T03:33:48.171Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T03:33:48.179Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-07-03T10:04:50.012Z | INFO   | Server started in PORT | 3001
+2024-07-03T10:04:50.605Z | INFO   | DB Connection Established
+2024-07-03T10:05:03.286Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-07-03T10:05:03.338Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T10:05:03.345Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-07-03T11:00:13.426Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-07-03T11:00:14.157Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-07-03T11:00:14.204Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T11:00:14.211Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-07-03T11:22:41.448Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-07-03T11:22:41.621Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/shivamgarg/Desktop/SplitWise-Clone/components/user.js:93:23)
+2024-07-03T11:56:01.557Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-07-03T11:56:02.393Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-07-03T11:56:02.444Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T11:56:02.450Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-07-03T11:56:14.856Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-07-03T11:56:19.616Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-07-03T11:56:19.662Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T11:56:19.669Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-07-03T11:56:22.740Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-07-03T11:56:36.615Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-07-03T11:56:36.660Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T11:56:36.668Z | INFO   | API HIT : [POST] /api/group/v1/user
+2024-07-03T12:07:44.787Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-07-03T12:07:45.890Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-07-03T12:07:45.940Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T12:07:45.946Z | INFO   | API HIT : [POST] /api/group/v1/user

@@ -196,3 +196,12 @@
 2024-07-03T02:43:34.274Z | ERROR  | URL : /api/users/v1/edit | staus : 403 | message: Access Denied
 2024-07-03T02:48:32.346Z | ERROR  | URL : /api/users/v1/edit | staus : 403 | message: Access Denied
 2024-07-03T02:54:55.786Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T03:33:48.171Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T10:05:03.338Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T11:00:14.204Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T11:22:41.621Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (/Users/shivamgarg/Desktop/SplitWise-Clone/components/user.js:93:23)
+2024-07-03T11:56:02.444Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T11:56:19.662Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T11:56:36.660Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T12:07:45.940Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user

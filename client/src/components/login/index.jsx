@@ -21,9 +21,7 @@ const RootStyle = styled('div')(({
     },
 }));
 
-const HeaderStyle = styled('header')(({
-    theme
-}) => ({
+const HeaderStyle = styled('header')(({theme}) => ({
     top: 0,
     zIndex: 9,
     lineHeight: 0,
@@ -104,7 +102,7 @@ export default function Login() {
          <Container maxWidth="sm">
           <ContentStyle>
             <Typography variant="h4" gutterBottom>
-              Sign in to Split Bill!
+              Sign in to Split Buddy!
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 5 }}>Enter your details below.</Typography>

@@ -46,14 +46,16 @@ export default function LoginForm() {
   };
 
   return (
-    <><Snackbar
+    <>
+    <Snackbar
       open={showAlert}
       autoHideDuration={6000}
-       >
-         <Alert severity="error" sx={{ width: '100%' }}>
+    >
+      <Alert severity="error" sx={{ width: '100%' }}>
          {alertMessage}
-        </Alert>
-      </Snackbar>
+      </Alert>
+    </Snackbar>
+    
         <FormikProvider value={formik}>
         <Form autoComplete="off" noValidate onSubmit={handleSubmit}>
           <Stack spacing={3}>
