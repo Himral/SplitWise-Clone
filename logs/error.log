@@ -177,3 +177,22 @@
 2024-07-02T18:11:07.747Z | ERROR  | [Invalid Route] /users/v1/register
 2024-07-02T18:12:06.351Z | ERROR  | [Invalid Route] /users/v1/register
 2024-07-02T18:12:17.335Z | ERROR  | [Invalid Route] /users/v1/register
+2024-07-03T02:16:14.765Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Token not present
+2024-07-03T02:18:40.235Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Token not present
+2024-07-03T02:20:09.747Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:22:56.925Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:27:45.574Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:29:29.302Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:29:57.170Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:31:01.933Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:33:39.004Z | ERROR  | [Invalid Route] /users/v1/view
+2024-07-03T02:34:00.048Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:34:21.940Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:34:29.015Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:34:39.929Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:37:01.966Z | ERROR  | [Invalid Route] /api/users/v1/emailList
+2024-07-03T02:38:58.115Z | ERROR  | [Invalid Route] /api/users/v1/emailList
+2024-07-03T02:40:16.918Z | ERROR  | [Invalid Route] /api/users/v1/emailList
+2024-07-03T02:43:34.274Z | ERROR  | URL : /api/users/v1/edit | staus : 403 | message: Access Denied
+2024-07-03T02:48:32.346Z | ERROR  | URL : /api/users/v1/edit | staus : 403 | message: Access Denied
+2024-07-03T02:54:55.786Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user

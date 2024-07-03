@@ -439,3 +439,52 @@
 2024-07-02T18:18:55.855Z | INFO   | Server started in PORT | 3001
 2024-07-02T18:18:57.428Z | INFO   | DB Connection Established
 2024-07-02T18:19:01.131Z | INFO   | API HIT : [POST] /api/users/v1/register
+2024-07-03T02:14:13.582Z | INFO   | Server started in PORT | 3001
+2024-07-03T02:14:14.171Z | INFO   | DB Connection Established
+2024-07-03T02:14:17.431Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-07-03T02:16:14.764Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:16:14.765Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Token not present
+2024-07-03T02:18:40.234Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:18:40.235Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Token not present
+2024-07-03T02:20:09.745Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:20:09.747Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:22:56.919Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:22:56.925Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:27:45.573Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:27:45.574Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:29:29.301Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:29:29.302Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:29:57.170Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:29:57.170Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:31:01.932Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:31:01.933Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:31:10.774Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:33:39.004Z | INFO   | API HIT : [POST] /users/v1/view
+2024-07-03T02:33:39.004Z | ERROR  | [Invalid Route] /users/v1/view
+2024-07-03T02:34:00.048Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:34:00.048Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:34:21.940Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:34:21.940Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:34:29.014Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:34:29.015Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:34:39.928Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:34:39.929Z | ERROR  | URL : /api/users//v1/view | API Authentication Fail | message: Invalid Token
+2024-07-03T02:37:01.966Z | INFO   | API HIT : [POST] /api/users/v1/emailList
+2024-07-03T02:37:01.966Z | ERROR  | [Invalid Route] /api/users/v1/emailList
+2024-07-03T02:38:05.959Z | INFO   | API HIT : [POST] /api/users//v1/view
+2024-07-03T02:38:58.115Z | INFO   | API HIT : [POST] /api/users/v1/emailList
+2024-07-03T02:38:58.115Z | ERROR  | [Invalid Route] /api/users/v1/emailList
+2024-07-03T02:40:12.812Z | INFO   | Server started in PORT | 3001
+2024-07-03T02:40:13.434Z | INFO   | DB Connection Established
+2024-07-03T02:40:16.917Z | INFO   | API HIT : [POST] /api/users/v1/emailList
+2024-07-03T02:40:16.918Z | ERROR  | [Invalid Route] /api/users/v1/emailList
+2024-07-03T02:40:43.035Z | INFO   | API HIT : [GET] /api/users/v1/emailList
+2024-07-03T02:41:30.638Z | INFO   | API HIT : [POST] /api/users/v1/view
+2024-07-03T02:43:34.273Z | INFO   | API HIT : [POST] /api/users/v1/edit
+2024-07-03T02:43:34.274Z | ERROR  | URL : /api/users/v1/edit | staus : 403 | message: Access Denied
+2024-07-03T02:47:59.845Z | INFO   | API HIT : [POST] /api/users/v1/login
+2024-07-03T02:48:32.344Z | INFO   | API HIT : [POST] /api/users/v1/edit
+2024-07-03T02:48:32.346Z | ERROR  | URL : /api/users/v1/edit | staus : 403 | message: Access Denied
+2024-07-03T02:54:55.736Z | INFO   | API HIT : [POST] /api/expense/v1/user
+2024-07-03T02:54:55.786Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2024-07-03T02:54:55.798Z | INFO   | API HIT : [POST] /api/group/v1/user

@@ -4,15 +4,9 @@ const validator = require('../helper/validation')
 const logger = require('../helper/logger')
 const apiAuth = require('../helper/apiAuthentication')
 const User = require('../model/schema')
-/*
-User Registeration function
-Accepts: firstName, lastName, emailId, password 
-Validation: firstname, lastname not Null 
-            emailID - contain '@' and '.com' 
-            password - min 8, lowercase, uppercase, special character, numbers
-API: /users/v1/register
-*/
 const zod = require("zod");
+
+
 
 //Function for registration API
 //API : /users/v1/register
@@ -79,6 +73,8 @@ Accepts: email Id & Pass
 Implement Google Sign-in in the future.
 */
 
+//Function for login API
+//API : /users//v1/login
 exports.userLogin = async (req, res) => {
     try {
         //Checking email Id exist in DB 
@@ -151,7 +147,7 @@ exports.viewUser = async (req, res) => {
 
 
 /*
-View All User EmailIs function 
+View All User EmailIds function 
 This function is to get all the user email Id 
 Accepts: none
 Returns: all user Email ID
