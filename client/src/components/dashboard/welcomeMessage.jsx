@@ -1,7 +1,7 @@
 import { Box, Button, Grid, Typography } from "@mui/material"
 import { Link as RouterLink } from 'react-router-dom';
 import configData from '../../config.json'
-
+import palette from "../../theme/palette";
 export const WelcomeMessage = () => {
     return (
         <Box sx={{
@@ -19,12 +19,14 @@ export const WelcomeMessage = () => {
                     <Grid item lg={6} md={6} xs={12}>
 
                         <Typography variant="h5" pb={2}>
-                            Hello there, Welcome back!
+                            Hey buddy!
                         </Typography>
                         <Typography variant="body2" pb={2} >
-                            Keep track of shared expenses and settle your corresponding balances in a convenient and personalized way.
+                            Welcome back to Split Buddy your one stop solution to all expense tracking issues 
                         </Typography>
-                        <Button variant="contained"
+                        <Button style = {{
+                            backgroundColor : '#b33856'
+                        }} variant="contained"
                             component={RouterLink}
                             to={configData.USER_GROUPS_URL}
                         >
@@ -32,7 +34,7 @@ export const WelcomeMessage = () => {
                         </Button>
                     </Grid>
                     <Grid item lg={5} md={6} xs={12}>
-                        <img src="/static/illustrations/dashboard-card.png" alt="dashboard" />
+                        <img src="/static/illustrations/dashboard-card.jpeg" alt="dashboard" />
                     </Grid>
                 </Grid>
 

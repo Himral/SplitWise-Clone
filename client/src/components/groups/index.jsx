@@ -52,7 +52,7 @@ export default function Group() {
               height: 20
             }} />
           </Fab>
-          <Typography variant="h3" pb={2}>
+          <Typography variant="h4" pb={2}>
             Your Groups,
           </Typography>
           <Grid container spacing={4} >

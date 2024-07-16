@@ -29,7 +29,8 @@ exports.addExpense = async (req, res) => {
             validator.notNull(expense.expenseAmount) &&
             validator.notNull(expense.expenseOwner) &&
             validator.notNull(expense.expenseMembers) &&
-            validator.notNull(expense.expenseDate)) {
+            validator.notNull(expense.expenseDate)) 
+            {
             var ownerValidation = await validator.groupUserValidation(expense.expenseOwner, expense.groupId)
             if (!ownerValidation) {
                 var err = new Error("Please provide a valid group owner")
@@ -39,7 +40,7 @@ exports.addExpense = async (req, res) => {
             for (var user of expense.expenseMembers) {
                 var memberValidation = await validator.groupUserValidation(user, expense.groupId)
                 if (!memberValidation) {
-                    var err = new Error("Please ensure the members exixt in the group")
+                    var err = new Error("Please ensure the members exist in the group")
                     err.status = 400
                     throw err
                 }
@@ -71,7 +72,7 @@ exports.addExpense = async (req, res) => {
 Edit Expense function
 This function is used to edit the previously added expense to the group
 Accepts: Group ID not null group ID exist in the DB 
-         Expense ID not null expense ID exist in the DB for the perticular group
+         Expense ID not null expense ID exist in the DB for the particular group
          Expense Name Not Null
          Expense Desc max 100 limit Expense Amount not null
          Expense Owner - not null --member in the DB

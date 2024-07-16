@@ -6,7 +6,7 @@ export const EndMessage = () => {
     return (
         <Box sx={{
             p: 5,
-            bgcolor: (theme) => theme.palette['success'].light,
+            bgcolor: (theme) => theme.palette['primary'].lighter,
             color: (theme) => theme.palette['success'].darker,
             borderRadius: 2,
         }}>
@@ -14,7 +14,7 @@ export const EndMessage = () => {
                 alignItems={'center'}
             >
                 <Grid item xs={11}>
-                    <img src="/static/illustrations/dashboard-card.png" alt="dashboard" />
+                    <img src="/static/illustrations/dashboard-card.jpeg" alt="dashboard" />
                 </Grid>
                 <Grid item xs={12}>
                     <Typography variant="body" pb={2} >

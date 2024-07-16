@@ -81,12 +81,12 @@ export default function Dashboard() {
                                     <Grid item xs={12}>
                                         <SummaryCards userTotalExp={userExp?.total} />
                                     </Grid>
-                                    <Grid item xs={12}>
+                                    {/* <Grid item xs={12}>
                                         <CalenderExpenseGraph />
-                                    </Grid>
-                                    <Grid item xs={12} md={12}>
+                                    </Grid> */}
+                                    {/* <Grid item xs={12} md={12}>
                                         <GroupExpenseChart />
-                                    </Grid>
+                                    </Grid> */}
                                     {/* <Grid item xs={12} md={6}>
                                 <CategoryExpenseChart />
                             </Grid> */}
@@ -101,9 +101,9 @@ export default function Dashboard() {
                                 <Grid item xs={12}>
                                     <RecentTransactions />
                                 </Grid>
-                                <Grid item xs={12}>
+                                {/* <Grid item xs={12}>
                                     <CategoryExpenseChart />
-                                </Grid>
+                                </Grid> */}
                                 <Grid item md={12} xs={0}>
                                     <EndMessage />
                                 </Grid>

@@ -9,6 +9,7 @@ import useResponsive from '../../../theme/hooks/useResponsive';
 import { createGroupService } from '../../../services/groupServices';
 import AlertBanner from '../../AlertBanner';
 import configData from '../../../config.json'
+import palette from '../../../theme/palette';
 
 
 export default function Creategroup() {
@@ -79,7 +80,9 @@ export default function Creategroup() {
         <Container>
             {loading ? <Loading /> :
                 <>
-                    <Typography variant="h4" pb={2} mb={3}>
+                    <Typography style = {{
+                        color : palette.primary.darker
+                    }} variant="h4" pb={2} mb={3}>
                         Create New group
                     </Typography>
                     <AlertBanner showAlert={alert} alertMessage={alertMessage} severity = 'error' />
