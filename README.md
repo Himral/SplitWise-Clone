@@ -56,13 +56,28 @@ Start the Client
 # Features
 
 ### Authenticaton
+![image](https://github.com/user-attachments/assets/cabed246-9857-4a33-8b18-f1214d47cae1)
 
+![image](https://github.com/user-attachments/assets/cd776d75-ba17-478a-a131-37e9db367370)
 
-### Search Users
+### Dashboard feature for quick navigation
+![image](https://github.com/user-attachments/assets/dfed8eb9-456f-4d2c-b7d8-62e83ced02a9)
+
+## Groups Feature
+
+### View Groups
+![image](https://github.com/user-attachments/assets/7603fa67-aaf4-43de-a29e-17cf6054d734)
+![image](https://github.com/user-attachments/assets/8ae1626c-1e22-40ee-94f0-683333f20bc3)
+
+![image](https://github.com/user-attachments/assets/fa23d13d-eaae-40bc-a005-3d3e4961b2dd)
+
 
 ### Create Group 
+![image](https://github.com/user-attachments/assets/d1de711a-9960-44e7-bf02-0adaf3fb3ebc)
 
 ### Add Expenses
+![image](https://github.com/user-attachments/assets/5d79fd74-6e59-44fd-8a9b-4a731bf60d63)
+![image](https://github.com/user-attachments/assets/1d91945e-5c7a-4d1d-92fc-7bd40cfd9726)
 
 
 ## Made By
